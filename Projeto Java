@@ -1,5 +1,4 @@
 public class MathHelper {
-
     public int numeroSeguinte(int numero) {
         return numero + 1;
     }
