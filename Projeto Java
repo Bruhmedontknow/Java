@@ -20,7 +20,7 @@ public class MathHelper {
     public int soma(int[] numeros) {
         int soma = 0;
         for (int numero : numeros) {
-            soma += numero;
+           soma = soma + numero;
         }
         return soma;
     }
@@ -28,7 +28,7 @@ public class MathHelper {
     public double media(double[] numeros) {
         double soma = 0;
         for (double numero : numeros) {
-            soma += numero;
+            soma = soma + numero;
         }
         return soma / numeros.length;
     }
